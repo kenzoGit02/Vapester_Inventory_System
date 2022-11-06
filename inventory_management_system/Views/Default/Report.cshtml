@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "Report";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse collapse;
+                padding 5px;
+            }
+        </style>
+        <div>
+            <center>
+                <table id="tbl">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Quantity</th>
+                            <th>How many are stored?</th>
+                            <th>Condition</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Juice</td>
+                            <td>300 pcs</td>
+                            <td>8 pcs</td>
+                            <td>300 pcs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+            <script>
+            var table = document.getElementById('tbl');
+            var cells = table.getElementsByTagName('td');
+
+            for (var i = 0; i < cells.length; i++) {
+                cells[i].onclick = function () {
+                    this.setAttribute('data-clicked', 'yes');
+                    this.setAttribute('data-text', this.innerHTML)
+
+
+                    var input = document.createElement('input');
+                    input.setAttribute('type', 'text');
+                    input.value = this.innerHTML;
+
+                    input.onblur = function () {
+                        var td = input.parentElement;
+                        var orig_text = input.parentElement.getAttribute('data-text');
+                    }
+
+                    this.innerHTML = '';
+                    this.style.cssText = 'padding: 0px 0px';
+                    this.append(input);
+                    this.firstElementChild.select
+
+                }
+            }
+            </script>
+        </div>
+    </form>
+</body>
+</html>
