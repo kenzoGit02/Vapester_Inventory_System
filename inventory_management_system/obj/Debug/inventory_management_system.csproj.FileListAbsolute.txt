@@ -1,0 +1,190 @@
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\ApplicationInsights.config
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\roslyn\csc.exe
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\roslyn\System.Collections.Immutable.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\roslyn\vbc.exe
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\roslyn\VBCSCompiler.exe
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\roslyn\VBCSCompiler.exe.config
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\inventory_management_system.dll.config
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\inventory_management_system.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\inventory_management_system.pdb
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.AI.Web.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.AI.WindowsServer.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.ApplicationInsights.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.Web.Infrastructure.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\System.Web.Helpers.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\System.Web.Mvc.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\System.Web.Razor.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.Deployment.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.Razor.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.AI.Web.xml
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.AI.WindowsServer.xml
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.ApplicationInsights.xml
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\System.Web.Razor.xml
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.xml
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.Deployment.xml
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.Razor.xml
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\System.Web.Helpers.xml
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\bin\System.Web.Mvc.xml
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.csprojResolveAssemblyReference.cache
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.dll
+c:\users\qcu\documents\visual studio 2015\Projects\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.pdb
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\ApplicationInsights.config
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\roslyn\csc.exe
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\roslyn\vbc.exe
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\roslyn\VBCSCompiler.exe
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\inventory_management_system.dll.config
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\inventory_management_system.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\inventory_management_system.pdb
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.AI.DependencyCollector.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.AI.Web.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.AI.WindowsServer.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.ApplicationInsights.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\System.Web.Helpers.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\System.Web.Mvc.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\System.Web.Razor.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.Deployment.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.Razor.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.AI.DependencyCollector.xml
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.AI.Web.xml
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.AI.WindowsServer.xml
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.ApplicationInsights.xml
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\System.Web.Razor.xml
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.xml
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.Deployment.xml
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.Razor.xml
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\System.Web.Helpers.xml
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\bin\System.Web.Mvc.xml
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.csproj.AssemblyReference.cache
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.csproj.CoreCompileInputs.cache
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.csproj.CopyComplete
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.dll
+D:\Documents\Compressed\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.pdb
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\ApplicationInsights.config
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\roslyn\csc.exe
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\roslyn\vbc.exe
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\roslyn\VBCSCompiler.exe
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\inventory_management_system.dll.config
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\inventory_management_system.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\inventory_management_system.pdb
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.AI.DependencyCollector.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.AI.Web.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.AI.WindowsServer.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.ApplicationInsights.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\System.Web.Helpers.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\System.Web.Mvc.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\System.Web.Razor.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.Deployment.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.Razor.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.AI.DependencyCollector.xml
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.AI.Web.xml
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.AI.WindowsServer.xml
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.ApplicationInsights.xml
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\System.Web.Razor.xml
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.xml
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.Deployment.xml
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\System.Web.Webpages.Razor.xml
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\System.Web.Helpers.xml
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\bin\System.Web.Mvc.xml
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.csproj.AssemblyReference.cache
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.csproj.CoreCompileInputs.cache
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.csproj.CopyComplete
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.dll
+D:\Documents\School Files\SIA101\Project Folder\inventory_management_system\inventory_management_system\obj\Debug\inventory_management_system.pdb
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\ApplicationInsights.config
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\roslyn\csc.exe
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\roslyn\System.Collections.Immutable.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\roslyn\System.Reflection.Metadata.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\roslyn\vbc.exe
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\roslyn\VBCSCompiler.exe
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\roslyn\VBCSCompiler.exe.config
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\inventory_management_system.dll.config
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\inventory_management_system.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\inventory_management_system.pdb
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.AI.DependencyCollector.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.AI.Web.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.AI.WindowsServer.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.ApplicationInsights.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.Web.Infrastructure.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\System.Web.Helpers.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\System.Web.Mvc.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\System.Web.Razor.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\System.Web.Webpages.Deployment.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\System.Web.Webpages.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\System.Web.Webpages.Razor.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.AI.DependencyCollector.xml
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.AI.Web.xml
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.AI.WindowsServer.xml
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.ApplicationInsights.xml
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\System.Web.Razor.xml
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\System.Web.Webpages.xml
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\System.Web.Webpages.Deployment.xml
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\System.Web.Webpages.Razor.xml
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\System.Web.Helpers.xml
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\bin\System.Web.Mvc.xml
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\obj\Debug\inventory_management_system.csproj.AssemblyReference.cache
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\obj\Debug\inventory_management_system.csproj.CoreCompileInputs.cache
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\obj\Debug\inventory_management_system.csproj.CopyComplete
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\obj\Debug\inventory_management_system.dll
+D:\Coding Files\Repository\Vapester_Inventory_System\inventory_management_system\obj\Debug\inventory_management_system.pdb
