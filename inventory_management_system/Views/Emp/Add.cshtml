@@ -1,0 +1,58 @@
+﻿@model IEnumerable<inventory_management_system.Models.CrudProp>
+
+@{
+    ViewBag.Title = "Add";
+}
+
+<h2>Add</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.prod_Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.prod_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.prod_Stock)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.prod_Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.prod_Variant)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.prod_Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.prod_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.prod_Stock)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.prod_Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.prod_Variant)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.prod_Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.prod_Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.prod_Id })
+            </td>
+        </tr>
+    }
+
+</table>

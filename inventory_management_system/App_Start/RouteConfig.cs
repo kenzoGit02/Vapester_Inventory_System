@@ -14,9 +14,9 @@ namespace inventory_management_system
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Default",
+                name: "Default", 
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Emp", action = "Add", id = UrlParameter.Optional }
             );
         }
     }
