@@ -19,7 +19,7 @@ namespace inventory_management_system.Controllers
             List<Login> list1 = new List<Login>();
             string mainconn = ConfigurationManager.ConnectionStrings["phpMyAdminConnection"].ConnectionString;
             MySqlConnection mysql = new MySqlConnection(mainconn);
-            string query = "select * from tbl_accounts ";
+            string query = "select * from tbl_admin ";
             MySqlCommand comm = new MySqlCommand(query);
             comm.Connection = mysql;
             mysql.Open();
