@@ -189,6 +189,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\EmpController.cs" />
     <Compile Include="Controllers\Login1Controller.cs" />
@@ -197,7 +198,10 @@
     </Compile>
     <Compile Include="Models\CrudImplementation.cs" />
     <Compile Include="Models\CrudProp.cs" />
+    <Compile Include="Models\DashboardModel.cs" />
     <Compile Include="Models\Login.cs" />
+    <Compile Include="Models\ProductCountModel.cs" />
+    <Compile Include="Models\TellerCountModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -220,6 +224,7 @@
     <Content Include="Views\Emp\Details.cshtml" />
     <Content Include="Views\Emp\Edit.cshtml" />
     <Content Include="Views\Login1\Index.cshtml" />
+    <Content Include="Views\Dashboard\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,28 @@
+﻿@model inventory_management_system.Models.DashboardModel
+
+@{
+}
+
+<h2>Index</h2>
+
+@if (Model != null)
+{
+    <table>
+        <tr>
+            <th>Teller Count</th>
+            @foreach (var teller in Model.DboardTeller)
+            {
+                <td>@teller.tlrCount</td>
+            }
+        </tr>
+        
+        <tr>
+            <th>Product Count</th>
+            @foreach (var product in Model.DboardProduct)
+            {
+                <td>@product.prodCount</td>
+            }
+        </tr>
+        
+    </table>
+}

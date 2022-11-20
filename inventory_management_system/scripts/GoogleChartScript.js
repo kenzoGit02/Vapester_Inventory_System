@@ -3,9 +3,6 @@ google.charts.setOnLoadCallback(monthlyChart);
 google.charts.setOnLoadCallback(quarterlyChart);
 google.charts.setOnLoadCallback(yearlyChart);
 
-google.charts.load('current', { 'packages': ['bar'] });
-google.charts.setOnLoadCallback(performanceChart);
-
 function monthlyChart() {
 
     var data = google.visualization.arrayToDataTable([
@@ -13,12 +10,13 @@ function monthlyChart() {
         ['Strawberry', 10],
         ['Grapes', 20],
         ['Apple', 30],
-        ['Adobo', 40],
-        ['Sinigang', 50]
+        ['Adobo', 60],
+        ['Sinigang', 30]
     ]);
 
     var options = {
-        title: 'Monthly Sales'
+        title: 'SALE',
+        width: '500'
     };
 
     var chart = new google.visualization.PieChart(document.getElementById('monthlychart'));
@@ -38,7 +36,8 @@ function quarterlyChart() {
     ]);
 
     var options = {
-        title: 'Quarterly Sales'
+        title: 'Quarterly Sales',
+        width: '500'
     };
 
     var chart = new google.visualization.PieChart(document.getElementById('quarterlychart'));
@@ -58,7 +57,8 @@ function yearlyChart() {
     ]);
 
     var options = {
-        title: 'Yearly Sales'
+        title: 'Yearly Sales',
+        width: '500'
     };
 
     var chart = new google.visualization.PieChart(document.getElementById('yearlychart'));
@@ -66,20 +66,24 @@ function yearlyChart() {
     chart.draw(data, options);
 }
 
+
+google.charts.load('current', { 'packages': ['bar'] });
+google.charts.setOnLoadCallback(performanceChart);
 function performanceChart() {
 
     var data = google.visualization.arrayToDataTable([
         ['Year', 'Sales', 'Expenses', 'Profit'],
-        ['2014', 1000, 400, 200],
-        ['2015', 1170, 460, 250],
-        ['2016', 660, 1120, 300],
-        ['2017', 1030, 540, 350]
+        ['2016', 1000, 400, 200],
+        ['2017', 1170, 460, 250],
+        ['2018', 660, 1120, 300],
+        ['2019', 1030, 540, 350]
     ]);
 
     var options = {
         chart: {
             title: 'Company Performance',
             subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+            width: '500'
         }
     };
 
