@@ -34,7 +34,8 @@ namespace inventory_management_system.Models
                     prod_Name = Convert.ToString(dr["prod_Name"]),
                     prod_Stock = Convert.ToInt32(dr["prod_Stock"]),
                     prod_Type = Convert.ToString(dr["prod_Type"]),
-                    prod_Variant = Convert.ToString(dr["prod_Variant"])
+                    prod_Variant = Convert.ToString(dr["prod_Variant"]),
+                    prod_Price = Convert.ToString(dr["prod_Price"])
                 });
             }
 
@@ -47,7 +48,7 @@ namespace inventory_management_system.Models
         {
             string mainconn = ConfigurationManager.ConnectionStrings["phpMyAdminConnection"].ConnectionString;
             MySqlConnection mysqlconn = new MySqlConnection(mainconn);
-            string sqlquery = "insert into tbl_product (prod_Name, prod_Stock, prod_Type, prod_Variant)  values ('" + empinsert.prod_Name + "','" + empinsert.prod_Stock + "','" + empinsert.prod_Type + "','" + empinsert.prod_Variant + "')";
+            string sqlquery = "insert into tbl_product (prod_Name, prod_Stock, prod_Type, prod_Variant, prod_Price)  values ('" + empinsert.prod_Name + "','" + empinsert.prod_Stock + "','" + empinsert.prod_Type + "','" + empinsert.prod_Variant + "','" + empinsert.prod_Price + "')";
             MySqlCommand sqlcomm = new MySqlCommand(sqlquery, mysqlconn);
             mysqlconn.Open();
             int i = sqlcomm.ExecuteNonQuery();
@@ -67,8 +68,10 @@ namespace inventory_management_system.Models
         {
             string mainconn = ConfigurationManager.ConnectionStrings["phpMyAdminConnection"].ConnectionString;
             MySqlConnection mysqlconn = new MySqlConnection(mainconn);
+
             string sqlquery = "update tbl_product set prod_Name='" + empedit.prod_Name + "' where prod_Id='" + empedit.prod_Id + "' ";
             MySqlCommand sqlcomm = new MySqlCommand(sqlquery, mysqlconn);
+
             mysqlconn.Open();
             int i = sqlcomm.ExecuteNonQuery();
             mysqlconn.Close();

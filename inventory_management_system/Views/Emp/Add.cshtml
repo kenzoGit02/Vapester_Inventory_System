@@ -26,6 +26,9 @@
         <th>
             @Html.DisplayNameFor(model => model.prod_Variant)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.prod_Price)
+        </th>
         <th></th>
     </tr>
 
@@ -47,6 +50,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.prod_Variant)
             </td>
+            <th>
+                @Html.DisplayNameFor(model => model.prod_Price)
+            </th>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id = item.prod_Id }) |
                 @Html.ActionLink("Details", "Details", new { id = item.prod_Id }) |

@@ -20,7 +20,15 @@ namespace inventory_management_system.Controllers
         [HttpGet]
         public ActionResult Login()
         {
-            return View();
+            if (Session["username"] != null)
+            {   
+                return RedirectToAction("Index", "Dashboard", new { username = Session["username"].ToString() });
+            }
+            else
+            {
+                return View();
+            }
+            
         }
         [HttpPost]
         public ActionResult Verify(Account acc)
@@ -35,7 +43,8 @@ namespace inventory_management_system.Controllers
             if (dr.Read())
             {
                 mysqlconn.Close();
-                return RedirectToAction("Index", "Dashboard");
+                Session["username"] = acc.Name;
+                return RedirectToAction("Index", "Dashboard", new { username = acc.Name });
             }
 
 

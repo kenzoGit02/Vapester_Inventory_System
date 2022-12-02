@@ -12,5 +12,6 @@ namespace inventory_management_system.Models
         public int prod_Stock { get; set; }
         public string prod_Type { get; set; }
         public string prod_Variant { get; set; }
+        public string prod_Price { get; set; }
     }
 }

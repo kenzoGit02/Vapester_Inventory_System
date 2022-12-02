@@ -6,14 +6,24 @@ using System.Web.Mvc;
 using inventory_management_system.Models;
 using MySql.Data.MySqlClient;
 using System.Configuration;
+using System.Web.Security;
 
 namespace inventory_management_system.Controllers
 {
     public class DashboardController : Controller
     {
         // GET: Dashboard
-        public ActionResult Index()
+        public ActionResult Index(string username)
         {
+            if (Session["username"] == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+            else
+            {
+                ViewBag.username = username;
+                return View();
+            }
             string mainconn = ConfigurationManager.ConnectionStrings["phpMyAdminConnection"].ConnectionString;
             MySqlConnection mysql = new MySqlConnection(mainconn);
 
@@ -54,5 +64,12 @@ namespace inventory_management_system.Controllers
             
             return View(preparedOutput);
         }
+        public ActionResult LogOut()
+        {
+            FormsAuthentication.SignOut();
+            Session.Abandon(); 
+            return RedirectToAction("Login", "Account");
+        }
+
     }
 }
