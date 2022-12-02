@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
+using inventory_management_system.Models;
 
 namespace inventory_management_system.Controllers
 {
@@ -20,6 +21,7 @@ namespace inventory_management_system.Controllers
             return View();
         }
 
+        orderhistoryimpelement ohi = new orderhistoryimpelement();
         public ActionResult OrderedHistory(string username)
         {
 
@@ -30,7 +32,9 @@ namespace inventory_management_system.Controllers
             else
             {
                 ViewBag.username = username;
-                return View();
+                ModelState.Clear();
+                return View(ohi.GetOrder());
+                //return View();
             }
             
         }

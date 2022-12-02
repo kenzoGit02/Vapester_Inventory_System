@@ -1,36 +1,87 @@
-﻿
+﻿@model IEnumerable<inventory_management_system.Models.orderhistory>
 @{
     ViewBag.Title = "OrderedHistory";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <h1>Order History</h1>
-<table border="1" style="width:100%;">
+
+
+
+<table class="table">
     <tr>
-        <th>Order No.</th>
-        <th>Product ID.</th>
-        <th>Product Name</th>
-        <th>Quantity</th>
-        <th>Teller</th>
+        <th>
+            @Html.DisplayNameFor(model => model.Order_ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.prod_ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.date)
+        </th>
+       
+        <th></th>
     </tr>
-    <tr>
-        <td>&nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;</td>
-    </tr>
-    <tr>
-        <td>&nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;</td>
-    </tr>
-    <tr>
-        <td>&nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;</td>
-        <td>&nbsp;&nbsp;</td>
-    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Order_ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.prod_ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.date)
+            </td>
+          
+        </tr>
+    }
+
 </table>
+
+
+
+
+@*<table border="1" style="width:100%;">
+    <tr>
+        <th>Order Id.</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Product Id</th>
+        <th>Date</th>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+        <td>&nbsp;&nbsp;</td>
+    </tr>
+</table>*@
