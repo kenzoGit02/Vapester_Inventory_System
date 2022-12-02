@@ -5,18 +5,33 @@
 }
 
 
-<h1>Vapester Admin Login Form </h1>
+<center><h1>Vapester Admin Login Form </h1></center>
 <div class="clear-loading spinner">
     <span></span>
 </div>
-<div class="w3ls-login box box--big">
+<div class="center">
     <!-- form starts here -->
     <form action="Verify" method="post">
-        <div class="agile-field-txt">
+        <div class="txt_field">
+            <input type="text" name="name" placeholder="" required="" />
+            <span></span>
+            <label>Username </label>
+        </div>
+        @*<div class="agile-field-txt">
             <label><i class="fa fa-user" aria-hidden="true"></i> Username </label>
             <input type="text" name="name" placeholder="Enter User Name" required="" />
+        </div>*@
+        <div class="txt_field">
+            <input type="password" name="password" placeholder="" required="" id="myInput" />
+            <span></span>
+            <label>Password </label>
         </div>
-        <div class="agile-field-txt">
+        @*<div class="txt_field">
+            <input id="check3" name="check3" type="checkbox" value="show password" onclick="myFunction()">
+            <label class="check" for="check3">Show password</label>
+        </div>*@
+        <div class="pass"><a href="#">Forgot Password?</a></div>
+        @*<div class="agile-field-txt">
             <label><i class="fa fa-unlock-alt" aria-hidden="true"></i> password </label>
             <input type="password" name="password" placeholder="Enter Password" required="" id="myInput" />
             <div class="agile_label">
@@ -26,7 +41,7 @@
             <div class="agile-right">
                 <a href="#">forgot password?</a>
             </div>
-        </div>
+        </div>*@
         <!-- script for show password -->
         <script>
 				function myFunction() {
@@ -40,8 +55,31 @@
         </script>
         <!-- //end script -->
         <input type="submit" value="LOGIN">
+        <div class="signup_link">
+            Create an account? <a href="#">Sign up</a>
+        </div>
     </form>
 </div>
+@*<div class="center">
+<h1>Login</h1>
+<form action="admin1.php" method="POST">
+    <div class="txt_field">
+        <input type="text" name="user" required>
+        <span></span>
+        <label>Username</label>
+    </div>
+    <div class="txt_field">
+        <input type="password" name="pass" required>
+        <span></span>
+        <label>Password</label>
+    </div>
+    <div class="pass">Forgot Password?</div>
+    <input type="submit" value="Login">
+    <div class="signup_link">
+        Don't hace an account? <a href="sign-up.php">Sign up</a>
+    </div>
+</form>
+    </div>*@
 <!-- //form ends here -->
 <!--copyright-->
 

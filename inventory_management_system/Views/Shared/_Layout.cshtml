@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
-    <link href="~/StyleSheet.css" rel="stylesheet" />
+    @*<link href="~/StyleSheet.css" rel="stylesheet" />*@
 
     
 
@@ -41,29 +41,22 @@
                 <li class="nav-item active">
                     <center><i class="fa-solid fa-house"></i>&nbsp;&nbsp;@Html.ActionLink("Home", "Index", "Default")<span class="sr-only">(current)</span></center>
                 </li>
-                <li class="nav-item active">
-                    <center><i class="fa-solid fa-house"></i>&nbsp;&nbsp;@Html.ActionLink("Logout", "LogOut", "Default")<span class="sr-only">(current)</span></center>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <li class="nav-item">
+                    <i class="fa-solid fa-box"></i>&nbsp;&nbsp;@Html.ActionLink("Products", "Add", "Emp")
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-solid fa-box"></i>&nbsp;&nbsp;Product
-                    </a>
-                    <div class="dropdown-menu">
-                        @Html.ActionLink("Update", "Add", "Emp")
-                        <a class="dropdown-item" href="#">List of products</a>
-                    </div>
-                </li>
+                &nbsp;&nbsp;&nbsp;&nbsp;
                 <li class="nav-item">
                     <i class="fa-solid fa-clock"></i>&nbsp;&nbsp;@Html.ActionLink("Transaction", "OrderedHistory", "Default")
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-solid fa-users"></i>&nbsp;&nbsp;Employees
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Pending Employees</a>
-                        <a class="dropdown-item" href="#">List of Employess</a>
-                    </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <li class="nav-item">
+                    <i class="fa-solid fa-users"></i>&nbsp;&nbsp;@Html.ActionLink("Employee", "OrderedHistory", "Default")
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp;@Html.ActionLink("Logout", "LogOut", "Default")<span class="sr-only">(current)</span></center>
                 </li>
             </ul>
         </div>

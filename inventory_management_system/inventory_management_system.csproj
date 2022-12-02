@@ -181,6 +181,7 @@
     <Content Include="scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="scripts\login.css" />
     <Content Include="scripts\modernizr-2.6.2.js" />
+    <Content Include="StyleSheet.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
