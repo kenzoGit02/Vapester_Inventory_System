@@ -22,7 +22,7 @@ namespace inventory_management_system.Controllers
         {
             if (Session["username"] != null)
             {   
-                return RedirectToAction("Index", "Dashboard", new { username = Session["username"].ToString() });
+                return RedirectToAction("OrderedHistory", "Default", new { username = Session["username"].ToString() });
             }
             else
             {
@@ -44,7 +44,7 @@ namespace inventory_management_system.Controllers
             {
                 mysqlconn.Close();
                 Session["username"] = acc.Name;
-                return RedirectToAction("Index", "Dashboard", new { username = acc.Name });
+                return RedirectToAction("OrderedHistory", "Default", new { username = acc.Name });
             }
 
 

@@ -179,6 +179,7 @@
     <Content Include="scripts\jquery.validate.min.js" />
     <Content Include="scripts\jquery.validate.unobtrusive.js" />
     <Content Include="scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="scripts\login.css" />
     <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -224,12 +225,12 @@
     <Content Include="Views\Emp\Create.cshtml" />
     <Content Include="Views\Emp\Details.cshtml" />
     <Content Include="Views\Emp\Edit.cshtml" />
-    <Content Include="Views\Login1\Index.cshtml" />
     <Content Include="Views\Dashboard\Index.cshtml" />
     <Content Include="Views\Account\_LayoutPage1.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Error.cshtml" />
     <Content Include="Views\Dashboard\LogOut.cshtml" />
+    <Content Include="Views\Default\LogOut.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

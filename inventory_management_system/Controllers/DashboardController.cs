@@ -13,17 +13,8 @@ namespace inventory_management_system.Controllers
     public class DashboardController : Controller
     {
         // GET: Dashboard
-        public ActionResult Index(string username)
+        public ActionResult Index()
         {
-            if (Session["username"] == null)
-            {
-                return RedirectToAction("Login", "Account");
-            }
-            else
-            {
-                ViewBag.username = username;
-                return View();
-            }
             string mainconn = ConfigurationManager.ConnectionStrings["phpMyAdminConnection"].ConnectionString;
             MySqlConnection mysql = new MySqlConnection(mainconn);
 
@@ -64,12 +55,7 @@ namespace inventory_management_system.Controllers
             
             return View(preparedOutput);
         }
-        public ActionResult LogOut()
-        {
-            FormsAuthentication.SignOut();
-            Session.Abandon(); 
-            return RedirectToAction("Login", "Account");
+       
         }
 
     }
-}
