@@ -199,6 +199,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\AccountImplementation.cs" />
     <Compile Include="Models\CrudImplementation.cs" />
     <Compile Include="Models\CrudProp.cs" />
     <Compile Include="Models\DashboardModel.cs" />
@@ -234,6 +235,8 @@
     <Content Include="Views\Account\Error.cshtml" />
     <Content Include="Views\Dashboard\LogOut.cshtml" />
     <Content Include="Views\Default\LogOut.cshtml" />
+    <Content Include="Views\Account\Create.cshtml" />
+    <Content Include="Views\Account\Add.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

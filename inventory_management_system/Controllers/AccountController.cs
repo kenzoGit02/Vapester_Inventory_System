@@ -10,8 +10,15 @@ using System.Configuration;
 
 namespace inventory_management_system.Controllers
 {
+    
     public class AccountController : Controller
     {
+        AccountImplementation ai = new AccountImplementation();
+        public ActionResult Add()
+        {
+            ModelState.Clear();
+            return View(ai.GetEmp());
+        }
         string mainconn = ConfigurationManager.ConnectionStrings["phpMyAdminConnection"].ConnectionString;
         MySqlConnection mysqlconn = new MySqlConnection();
         MySqlCommand sqlcomm = new MySqlCommand();
@@ -55,6 +62,37 @@ namespace inventory_management_system.Controllers
                 return View("Error");
             }
 
+        }
+        // GET: Emp/Create
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Emp/Create
+        [HttpPost]
+        public ActionResult Create(Account empinsert)
+        {
+            try
+            {
+                // TODO: Add insert logic here
+                if (ModelState.IsValid)
+                {
+                    if (ai.insertemp(empinsert))
+                    {
+                        ViewBag.message = "Record is successfully saved!";
+                        ModelState.Clear();
+                    }
+
+                }
+
+                return RedirectToAction("Add");
+            }
+            catch
+            {
+                return View();
+            }
         }
 
     }
