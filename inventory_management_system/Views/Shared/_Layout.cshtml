@@ -51,25 +51,28 @@
                 </li>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <li class="nav-item">
+                    <i class="fa-solid fa-chart-simple"></i>&nbsp;&nbsp;@Html.ActionLink("Sales", "Index", "Sales")
+                </li>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <li class="nav-item">
                     <i class="fa-solid fa-users"></i>&nbsp;&nbsp;@Html.ActionLink("Employee", "Add", "Account")
                 </li>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <li class="nav-item">
+                    <i class="fa-solid fa-user-plus"></i>&nbsp;&nbsp;@Html.ActionLink("Create an Accout", "Create", "Account")
+                </li>
+                
+                
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp;@Html.ActionLink("Logout", "LogOut", "Default")<span class="sr-only">(current)</span></center>
+                    <i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp;@Html.ActionLink("Logout", "LogOut", "Default")<span class="sr-only">(current)</span>
                 </li>
             </ul>
         </div>
     </nav>
     <div class="row">
-        <div class="col-3 bg-primary text-white text-center" style="height:700px;">
-            <p class="lead pt-5">Overview</p><br>
-            <p class="lead" style="font-size: 35px;">Monthly Sales:</p><br>
-            <p class="lead" style="font-size: 40px;font-weight: bold;">100</p><br>
-            <p class="lead" style="font-size: 25px;">Today's Sales:</p><br>
-            <p class="lead" style="font-size: 30px;font-weight: bold;">100</p><br><br>
-        </div>
-        <div class="col-9">
+        <div class="col-12">
             <div class="container body-content">
                 @RenderBody()
                 <hr />
@@ -78,7 +81,6 @@
                 </footer>
             </div>
         </div>
-        
     </div>
     
     

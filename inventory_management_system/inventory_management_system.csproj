@@ -195,6 +195,7 @@
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\EmpController.cs" />
     <Compile Include="Controllers\Login1Controller.cs" />
+    <Compile Include="Controllers\SalesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -207,6 +208,8 @@
     <Compile Include="Models\orderhistory.cs" />
     <Compile Include="Models\orderhistoryimpelement.cs" />
     <Compile Include="Models\ProductCountModel.cs" />
+    <Compile Include="Models\SalesImplementation.cs" />
+    <Compile Include="Models\SalesProp.cs" />
     <Compile Include="Models\TellerCountModel.cs" />
     <Compile Include="Models\tellerProp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -238,6 +241,7 @@
     <Content Include="Views\Default\LogOut.cshtml" />
     <Content Include="Views\Account\Add.cshtml" />
     <Content Include="Views\Account\Create.cshtml" />
+    <Content Include="Views\Sales\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -42,5 +42,7 @@ namespace inventory_management_system.Models
             return historylist;
 
         }
+
+        
     }
 }

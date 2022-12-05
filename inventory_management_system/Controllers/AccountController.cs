@@ -87,7 +87,7 @@ namespace inventory_management_system.Controllers
 
                 }
 
-                return RedirectToAction("Login");
+                return RedirectToAction("Add");
             }
             catch
             {
