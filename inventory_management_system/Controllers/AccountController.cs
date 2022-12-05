@@ -72,7 +72,7 @@ namespace inventory_management_system.Controllers
 
         // POST: Emp/Create
         [HttpPost]
-        public ActionResult Create(Account empinsert)
+        public ActionResult Create(tellerProp empinsert)
         {
             try
             {
@@ -87,7 +87,7 @@ namespace inventory_management_system.Controllers
 
                 }
 
-                return RedirectToAction("Add");
+                return RedirectToAction("Login");
             }
             catch
             {

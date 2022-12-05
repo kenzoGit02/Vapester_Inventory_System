@@ -39,11 +39,12 @@ namespace inventory_management_system.Models
 
         }
 
-        public bool insertemp(Account empinsert)
+        public bool insertemp(tellerProp empinsert)
         {
             string mainconn = ConfigurationManager.ConnectionStrings["phpMyAdminConnection"].ConnectionString;
             MySqlConnection mysqlconn = new MySqlConnection(mainconn);
-            string sqlquery = "insert into tbl_login (username, password)  values ('" + empinsert.Name + "','" + empinsert.Password +"')";
+            string sqlquery = "insert into tbl_teller (email, password, last_name, first_name, middle_name)  values ('" + empinsert.email + "','" + empinsert.password + "','" + empinsert.last_name + "','" + empinsert.first_name + "','" + empinsert.middle_name + "')";
+
             MySqlCommand sqlcomm = new MySqlCommand(sqlquery, mysqlconn);
             mysqlconn.Open();
             int i = sqlcomm.ExecuteNonQuery();
