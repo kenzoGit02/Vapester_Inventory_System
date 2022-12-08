@@ -102,30 +102,39 @@ namespace inventory_management_system.Controllers
             }
         }
 
-        [HttpPost]
-        public ActionResult CreateAdmin(Account empinsert)
+
+
+
+        [HttpGet]
+        public ActionResult CreateAdmin()
         {
-            //try
-            //{
-            //    // TODO: Add insert logic here
-            //    if (ModelState.IsValid)
-            //    {
-            //        if (ai.insertemp(empinsert))
-            //        {
-            //            ViewBag.message = "Record is successfully saved!";
-            //            ModelState.Clear();
-            //        }
+            return View();
+        }
 
-            //    }
+        [HttpPost]
+        public ActionResult CreateAdmin(CreateAdminProp insertadmin)
+        {
+            try
+            {
+                // TODO: Add insert logic here
+                if (ModelState.IsValid)
+                {
+                    if (ai.insertemp(insertadmin))
+                    {
+                        ViewBag.message = "Record is successfully saved!";
+                        ModelState.Clear();
+                    }
 
-            //    return RedirectToAction("Add");
-            //}
-            //catch
-            //{
-            //    return View();
-            //}
+                }
 
-            return View();//<-- padelete kapag mag-iinsert kana
+                return RedirectToAction("Add");
+            }
+            catch
+            {
+                return View();
+            }
+
+           
         }
 
     }

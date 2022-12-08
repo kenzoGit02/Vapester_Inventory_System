@@ -201,6 +201,7 @@
     </Compile>
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\AccountImplementation.cs" />
+    <Compile Include="Models\CreateAdminProp.cs" />
     <Compile Include="Models\CrudImplementation.cs" />
     <Compile Include="Models\CrudProp.cs" />
     <Compile Include="Models\DashboardModel.cs" />

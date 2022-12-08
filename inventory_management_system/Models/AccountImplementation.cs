@@ -91,5 +91,32 @@ namespace inventory_management_system.Models
                 return false;
             }
         }
+
+
+
+
+
+        public bool insertemp(CreateAdminProp insertadmin)
+        {
+            string mainconn = ConfigurationManager.ConnectionStrings["phpMyAdminConnection"].ConnectionString;
+            MySqlConnection mysqlconn = new MySqlConnection(mainconn);
+            string sqlquery = "insert into tbl_login (username, password)  values ('" + insertadmin.username + "','" + insertadmin.password + "')";
+
+            MySqlCommand sqlcomm = new MySqlCommand(sqlquery, mysqlconn);
+            mysqlconn.Open();
+            int i = sqlcomm.ExecuteNonQuery();
+            mysqlconn.Close();
+            if (i >= 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
+
     }
 }
