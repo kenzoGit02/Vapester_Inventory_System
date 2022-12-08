@@ -55,13 +55,19 @@
                 </li>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <li class="nav-item">
-                    <i class="fa-solid fa-users"></i>&nbsp;&nbsp;@Html.ActionLink("Employee", "Add", "Account")
+                    <i class="fa-solid fa-users"></i>&nbsp;&nbsp;@Html.ActionLink("Employee", "Teller", "Account")
                 </li>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <li class="nav-item">
-                    <i class="fa-solid fa-user-plus"></i>&nbsp;&nbsp;@Html.ActionLink("Create an Accout", "Create", "Account")
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                        <i class="fa-solid fa-user-plus"></i>&nbsp;&nbsp;Create an Account
+                    </a>
+                    <div class="dropdown-menu">
+                        <center><i class="fa-sharp fa-solid fa-user-tie"></i>&nbsp;&nbsp;@Html.ActionLink("Admin", "CreateAdmin", "Account")</center><br />
+                        <center><i class="fa-solid fa-users-line"></i>&nbsp;&nbsp;@Html.ActionLink("Teller", "Create", "Account")</center>
+                        <div class="dropdown-divider"></div>
+                    </div>
                 </li>
-                
                 
             </ul>
             <ul class="navbar-nav ml-auto">

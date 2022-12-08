@@ -19,6 +19,13 @@ namespace inventory_management_system.Controllers
             ModelState.Clear();
             return View(ai.GetEmp());
         }
+
+        public ActionResult Teller()
+        {
+            ModelState.Clear();
+            return View(ai.GetTeller());
+        }
+
         string mainconn = ConfigurationManager.ConnectionStrings["phpMyAdminConnection"].ConnectionString;
         MySqlConnection mysqlconn = new MySqlConnection();
         MySqlCommand sqlcomm = new MySqlCommand();
@@ -87,12 +94,38 @@ namespace inventory_management_system.Controllers
 
                 }
 
-                return RedirectToAction("Add");
+                return RedirectToAction("Teller");
             }
             catch
             {
                 return View();
             }
+        }
+
+        [HttpPost]
+        public ActionResult CreateAdmin(Account empinsert)
+        {
+            //try
+            //{
+            //    // TODO: Add insert logic here
+            //    if (ModelState.IsValid)
+            //    {
+            //        if (ai.insertemp(empinsert))
+            //        {
+            //            ViewBag.message = "Record is successfully saved!";
+            //            ModelState.Clear();
+            //        }
+
+            //    }
+
+            //    return RedirectToAction("Add");
+            //}
+            //catch
+            //{
+            //    return View();
+            //}
+
+            return View();//<-- padelete kapag mag-iinsert kana
         }
 
     }

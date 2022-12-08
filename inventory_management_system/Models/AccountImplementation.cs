@@ -39,6 +39,39 @@ namespace inventory_management_system.Models
 
         }
 
+        //teller function
+        public List<tellerProp> GetTeller()
+        {
+            List<tellerProp> emplist = new List<tellerProp>();
+            string mainconn = ConfigurationManager.ConnectionStrings["phpMyAdminConnection"].ConnectionString;
+            MySqlConnection mysqlconn = new MySqlConnection(mainconn);
+            string sqlquery = "select * from tbl_teller";
+            MySqlCommand sqlcomm = new MySqlCommand(sqlquery, mysqlconn);
+            mysqlconn.Open();
+            MySqlDataAdapter mda = new MySqlDataAdapter(sqlcomm);
+            DataTable dt = new DataTable();
+            mda.Fill(dt);
+            mysqlconn.Close();
+
+            foreach (DataRow dr in dt.Rows)
+            {
+                emplist.Add(new tellerProp
+                {
+                    id = Convert.ToInt32(dr["id"]),
+                    email = Convert.ToString(dr["email"]),
+                    password = Convert.ToString(dr["password"]),
+                    last_name = Convert.ToString(dr["last_name"]),
+                    first_name = Convert.ToString(dr["first_name"]),
+                    middle_name = Convert.ToString(dr["middle_name"])
+
+                });
+            }
+
+
+            return emplist;
+
+        }
+
         public bool insertemp(tellerProp empinsert)
         {
             string mainconn = ConfigurationManager.ConnectionStrings["phpMyAdminConnection"].ConnectionString;
@@ -57,7 +90,6 @@ namespace inventory_management_system.Models
             {
                 return false;
             }
-
         }
     }
 }
